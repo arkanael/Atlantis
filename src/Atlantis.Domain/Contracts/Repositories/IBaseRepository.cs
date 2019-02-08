@@ -12,9 +12,11 @@ namespace Atlantis.Domain.Contracts.Repositories
         void Update(TEntity obj);
         void Delete(TEntity obj);
 
+        TEntity Find(Guid Id);
+        
         IEnumerable<TEntity> Find();
-        IEnumerable<TEntity> Find(Guid Id);
         IEnumerable<TEntity> Find(Func<TEntity, bool> func);
+
 
         int Count();
         int Count(Func<TEntity, bool>func);
