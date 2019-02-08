@@ -17,27 +17,27 @@ namespace Atlantis.Domain.Services
             this.repository = repository;
         }
 
-        public void Inserir(TEntity entity)
+        public virtual void Inserir(TEntity entity)
         {
             repository.Insert(entity);
         }
 
-        public void Atualiar(TEntity entity)
+        public virtual void Atualiar(TEntity entity)
         {
             repository.Update(entity);
         }
 
-        public void Excluir(TEntity entity)
+        public virtual void Excluir(TEntity entity)
         {
             repository.Delete(entity);
         }
         
-        public IEnumerable<TEntity> Obter()
+        public virtual IEnumerable<TEntity> Obter()
         {
             return repository.Find();
         }
 
-        public TEntity Obter(Guid Id)
+        public virtual TEntity Obter(Guid Id)
         {
             return repository.Find(Id);
         }

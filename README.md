@@ -1,7 +1,9 @@
 Atlantis
 Projeto desenvolvido utilizando DDD - Domain Driven Design, SOLID e EntityFramework.
-Tecnologias: WebApi ASP.NET MVC, Data Driven Design, Repository Pattern, Entity Framework, Swagger, SQL SERVER LocalDB 
+Tecnologias: WebApi ASP.NET MVC, Data Driven Design, Specifications Pattern, Repository Pattern,  Entity Framework, Swagger, SQL SERVER LocalDB 
 
+
+Specifications - Padrão utilizado para a criação de classes voltadas somente  para implementar especificações para entidades do projeto
 
 Atlantis - Ônibus Espacial Atlantis começou a ser construído em 1979, sendo o seu primeiro lançamento em 3 de outubro de 1985 na missão STS-51-J, foi completada em metade do tempo do Columbia.
 
