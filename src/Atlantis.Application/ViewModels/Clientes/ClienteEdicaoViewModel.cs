@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Atlantis.Domain.Entities
+namespace Atlantis.Application.ViewModels.Clientes
 {
-    public class Cliente : BaseEntity
+    public class ClienteEdicaoViewModel
     {
+        public Guid Id { get; set; }
         public string RazaoSocial { get; set; }
         public string NomeFantasia { get; set; }
         public string CNPJ { get; set; }
