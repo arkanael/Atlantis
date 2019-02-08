@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Domain", "src\Atlantis.Domain\Atlantis.Domain.csproj", "{5795233B-2253-4593-8D65-B4413E99CD95}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atlantis.Infra.Repository", "src\Atlantis.Infra.Repository\Atlantis.Infra.Repository.csproj", "{BB483534-EA78-451B-926E-E6CA961F55EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{5795233B-2253-4593-8D65-B4413E99CD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5795233B-2253-4593-8D65-B4413E99CD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5795233B-2253-4593-8D65-B4413E99CD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB483534-EA78-451B-926E-E6CA961F55EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB483534-EA78-451B-926E-E6CA961F55EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB483534-EA78-451B-926E-E6CA961F55EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB483534-EA78-451B-926E-E6CA961F55EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6CCC2221-43D0-4B3B-87AD-DFB7A164C0B8} = {C01D7FBE-7CE1-4897-80B2-D7589D31017E}
 		{5795233B-2253-4593-8D65-B4413E99CD95} = {E2863292-130C-44C6-9B65-E64CC75B00D1}
+		{BB483534-EA78-451B-926E-E6CA961F55EB} = {6CCC2221-43D0-4B3B-87AD-DFB7A164C0B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {414F82FC-DFFC-4EDA-B5C6-B95A58624C92}
